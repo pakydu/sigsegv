@@ -1,8 +1,7 @@
 How to trace the crashed issue when we want to dump the stack information?
 
-# sigsegv
-debug segfault
 Solution 1: dladdr():
+sigsegv.c
  #define _GNU_SOURCE
        #include <dlfcn.h>
 
